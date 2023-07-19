@@ -3,3 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --tb-colour_navbar: #080b12;
+    --tb-colour_main: #424242;
+    --tb-colour_footer: #282828;
+    --tb-colour_animation: #adff2f;
+}
+
+/* #region utilities */
+/* #endregion utilities */
+
+/* #region colors */
+/* #endregion colors */
+
+
+/* #region spaces */
+/* #endregion spaces */
+
+
+/* #region main */
+/* #endregion main */
+
+/* #region footer */
+/* #endregion footer */
+
+/* #region media query */
+/* #endregion media query */
