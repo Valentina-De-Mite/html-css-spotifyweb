@@ -195,27 +195,39 @@ img {
     width: 100%;
 }
 
-.img-cnt {
+.icon-cnt {
     position: relative;
-}
-
-.icon-hover {
     display: none;
-    background-color: black;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
-.fa-circle-play {
+.icon-cnt>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.singer:hover .hover-img {
+    display: block;
+}
+
+/* .hover-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+} */
+
+
+/* .fa-circle-play {
     position: absolute;
     left: 45%;
     top: 45%;
     font-size: 50px;
-}
+} */
 
 /* #endregion main */
 
@@ -233,9 +245,8 @@ img {
     padding: 0.7rem 0;
 }
 
-.singer>img:hover {
-    background-color: #28282840;
-
+.icon-cnt:hover {
+    display: block;
 }
 
 
