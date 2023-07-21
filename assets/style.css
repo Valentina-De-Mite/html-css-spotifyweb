@@ -105,6 +105,14 @@ img {
     font-weight: 200;
 }
 
+.logo-sm {
+    display: none;
+}
+
+
+
+
+
 /* #endregion utilities */
 
 /* #region colors */
@@ -132,6 +140,14 @@ img {
     padding-left: 40px;
 }
 
+.p-rl {
+    padding: 0 0.5rem;
+}
+
+.p-tb {
+    padding: 0.5rem 0;
+}
+
 .m-t {
     margin-top: 0.3rem;
 }
@@ -146,6 +162,10 @@ img {
 
 .m-tb {
     margin: 2rem 0;
+}
+
+.m-l {
+    margin-left: 40px;
 }
 
 /* #endregion spaces */
@@ -178,6 +198,16 @@ img {
     flex-wrap: wrap;
 }
 
+.commands {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.logo {
+    padding: 1rem 0
+}
+
 .upgrade {
     padding: 0.5rem;
     width: 10%;
@@ -185,6 +215,10 @@ img {
     border-radius: 1.5rem;
     border: 0.5px solid white;
     flex-wrap: wrap;
+}
+
+.green {
+    border-left: 0.5px solid var(--tb-colour_animation);
 }
 
 .choice {
@@ -197,6 +231,23 @@ img {
     font-weight: 700;
 }
 
+.icon {
+    width: 30px;
+    padding-left: 5px;
+    border-left: 10px;
+}
+
+.fa-square-plus {
+    color: #7a7c81;
+    padding: 1.5rem 0;
+    padding-right: 0.5rem;
+    font-size: 40px;
+}
+
+.navbar {
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .row {
     width: 100%;
@@ -218,28 +269,24 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
 
+li {
+    list-style: none;
+    padding: 0.5rem 0;
+
+}
+
+.menu_top,
+.menu_bottom {
+    padding-left: 0.5rem;
+    margin: 0 1rem;
 }
 
 .singer:hover .hover-img {
     display: block;
 }
 
-/* .hover-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-    width: 100%;
-} */
-
-
-/* .fa-circle-play {
-    position: absolute;
-    left: 45%;
-    top: 45%;
-    font-size: 50px;
-} */
 
 /* #endregion main */
 
@@ -260,6 +307,7 @@ img {
 .icon-cnt:hover {
     display: block;
 }
+
 
 
 
@@ -309,5 +357,35 @@ img {
     .navbar {
         width: 50px;
     }
+
+    .logo-sm {
+        display: inline;
+        width: 30px;
+    }
+
+    .logo-l {
+        display: none;
+    }
+
+    .menu_bottom,
+    .menu_top {
+        margin: 0;
+
+    }
+
+    .commands img {
+        padding: 0.3rem 0;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    span,
+    b,
+    hr {
+        display: none;
+    }
+
 
 }
