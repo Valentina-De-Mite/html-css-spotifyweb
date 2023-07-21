@@ -13,6 +13,71 @@
     --tb-colour_animation: #adff2f;
 }
 
+/* #endregion utilities */
+
+/* #region colors */
+.bgc-dark {
+    background-color: var(--tb-colour_navbar);
+}
+
+.bgc-dark1 {
+    background-color: #080b12c5;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-light {
+    color: #7a7c81;
+}
+
+/* #endregion colors */
+
+
+/* #region spaces */
+.p-l {
+    padding-left: 40px;
+}
+
+.p0 {
+    padding: 1.3rem 0;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p-rl {
+    padding: 0 0.5rem;
+}
+
+.p-tb {
+    padding: 0.5rem 0;
+}
+
+.m-t {
+    margin-top: 0.3rem;
+}
+
+.m-t1 {
+    margin-top: 1rem;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.m-tb {
+    margin: 2rem 0;
+}
+
+.m-l {
+    margin-left: 40px;
+}
+
+/* #endregion spaces */
+
 /* #region utilities */
 
 .d-flex {
@@ -74,15 +139,25 @@ img {
     width: 100%;
 }
 
+.container {
+    width: 100%;
+    height: 90%
+}
+
 .evidence {
     border-bottom: 2px solid #adff2f;
     width: 35%;
     margin: auto;
 }
 
+.icon_footer {
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
 
 .col-30 {
     width: calc(100%/12 * 4);
+    flex-wrap: wrap;
 
 }
 
@@ -100,6 +175,11 @@ img {
     font-weight: 800;
 }
 
+.text-xs {
+    font-size: 10px;
+    font-weight: 800;
+}
+
 .subtitle {
     font-size: 18px;
     font-weight: 200;
@@ -109,66 +189,12 @@ img {
     display: none;
 }
 
-
-
-
-
-/* #endregion utilities */
-
-/* #region colors */
-.bgc-dark {
-    background-color: var(--tb-colour_navbar);
+.icon_footer i {
+    padding-right: 0.5rem;
 }
 
-.bgc-dark1 {
-    background-color: #080b12c5;
-}
-
-.text-white {
-    color: white;
-}
-
-.text-light {
-    color: #7a7c81;
-}
-
-/* #endregion colors */
 
 
-/* #region spaces */
-.p-l {
-    padding-left: 40px;
-}
-
-.p-rl {
-    padding: 0 0.5rem;
-}
-
-.p-tb {
-    padding: 0.5rem 0;
-}
-
-.m-t {
-    margin-top: 0.3rem;
-}
-
-.m-t1 {
-    margin-top: 1rem;
-}
-
-.m-auto {
-    margin: auto;
-}
-
-.m-tb {
-    margin: 2rem 0;
-}
-
-.m-l {
-    margin-left: 40px;
-}
-
-/* #endregion spaces */
 
 
 /* #region main */
@@ -277,6 +303,13 @@ li {
 
 }
 
+.img_footer {
+    width: 35px;
+    height: 35px;
+
+
+}
+
 .menu_top,
 .menu_bottom {
     padding-left: 0.5rem;
@@ -287,6 +320,9 @@ li {
     display: block;
 }
 
+.text-center {
+    text-align: center;
+}
 
 /* #endregion main */
 
